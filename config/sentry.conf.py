@@ -58,8 +58,7 @@ SENTRY_OPTIONS.update({
                 0: {
                     'host': redis_url_parts.hostname,
                     'port': redis_url_parts.port,
-                    'password': redis_url_parts.password,
-                    'username': redis_url_parts.username
+                    'password': redis_url_parts.password
                 },
             },
         },
