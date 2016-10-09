@@ -56,7 +56,7 @@ SENTRY_OPTIONS.update({
         'default': {
             'hosts': {
                 0: {
-                    'host': redis_url_parts.netloc.split(':')[0],
+                    'host': redis_url_parts.hostname,
                     'port': redis_url_parts.port
                 },
             },
